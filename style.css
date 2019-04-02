@@ -4,7 +4,7 @@ html, body {
     font-family: Raleway, sans-serif
 }
 :root {
-    --background: rgba(103, 160, 100, 0.9);
+    --background: rgba(206, 131, 104, 0.9);
 }
 
 /* Reset Box Sizing */
@@ -192,18 +192,45 @@ nav a:hover {
 }
 
 .Landing-text h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 900;
 }
 
 .Clothing-Section {
-    background-color: palevioletred;
+    height: 50vh;
+    background-color: rgb(37,79,41);
+    padding-top: 0px;
+}
+.Clothing-text {
+    padding: 30px;
+    float: right; 
+    width: 300;
+    color: white;
 }
 
-.Song-Section {
-    background-color: pink;
+.Songs-Section {
+    height: 50vh;
+    background-color: rgb(59,129,66);
+}
+
+.Songs-text {
+    text-align: left;
+    /* top: 50%; */
+    right: 300px;
+    vertical-align: middle;
+    padding: 30px;
+    width: 300; 
+    color: white; 
 }
 
 .Activities-Section {
-    background-color: peachpuff;
+    height: 50vh;
+    background-color:rgb(106,169,112);
+}
+
+.Activities-text {
+    padding: 30px;
+    float: right; 
+    width: 300;
+    color: white; 
 }
