@@ -4,7 +4,7 @@ html, body {
     font-family: Raleway, sans-serif
 }
 :root {
-    --background: rgba(170, 170, 170, 0.9);
+    --background: rgba(103, 160, 100, 0.9);
 }
 
 /* Reset Box Sizing */
@@ -19,12 +19,14 @@ html, body {
     background-size: cover;
 } */
 
-.Landing-Page-Content {
+.Landing-Page {
     height: 100vh;
-    background-color: darkcyan;
-    /* background-image: url(images/IMG_9674.jpg); */
+    /* background-color: darkcyan; */
+    background-image: url(images/IMG_9674.png);
+    background-attachment: fixed;
     background-size: cover;
 }
+
 
 /* Navigations Styles */ 
 
@@ -179,24 +181,29 @@ nav a:hover {
     }
 }
 
-.Landing-Page-Content {
-    color: white;
-    text-align: right;
+.Landing-text {
+    /* color: rgba(60, 128, 39, 1); */
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    text-align:  center;
+    position: relative;
     top: 50%;
-    right: 12px;
-    vertical-align: middle;
-    display: block;
-    padding-left: 35 px;
-    
 }
-.Clothing-Section-Content {
+
+.Landing-text h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.Clothing-Section {
     background-color: palevioletred;
 }
 
-.Song-Section-Content {
+.Song-Section {
     background-color: pink;
 }
 
-.Activities-Section-Content {
+.Activities-Section {
     background-color: peachpuff;
 }
