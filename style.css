@@ -12,16 +12,8 @@ html, body {
     box-sizing: border-box;
 }
 
-/* .content {
-    height: 100vh;
-    background-color: darkcyan;
-    background-image: url(images/IMG_9674.jpg);
-    background-size: cover;
-} */
-
 .Landing-Page {
     height: 100vh;
-    /* background-color: darkcyan; */
     background-image: url(images/IMG_9674.png);
     background-attachment: fixed;
     background-size: cover;
@@ -113,6 +105,7 @@ nav a:hover {
     color: #fff;
 }
 
+
 /* Using Checkbox to create hamburger menu */
 .nav-toggle:checked ~ nav { 
     transform: scale(1,1);
@@ -190,17 +183,9 @@ nav a:hover {
         padding: 30px; 
     }
     
-    /* .footer-sub li {
-        color: rgba(206, 131, 104, 0.9);
-        color: black; 
-        margin: 1em; 
-        padding: 10px; 
-        
-    } */
 }
 
 .Landing-text {
-    /* color: rgba(60, 128, 39, 1); */
     margin: 0;
     padding: 0;
     text-transform: uppercase;
@@ -213,9 +198,18 @@ nav a:hover {
     font-size: 50px;
     font-weight: 900;
 }
+.cool-button-unclicked{
+    position: absolute;
+    opacity: 100%; 
+}
+.cool-button-unclicked:hover {
+    opacity: 0.1; 
+    transition: 200ms ease-in;
+
+}
 
 .Clothing-Section {
-    height: 50vh;
+    height: 100vh;
     background-color: rgb(37,79,41);
     padding-top: 0px;
 }
@@ -227,13 +221,12 @@ nav a:hover {
 }
 
 .Songs-Section {
-    height: 50vh;
+    height: 100vh;
     background-color: rgb(59,129,66);
 }
 
 .Songs-text {
     text-align: left;
-    /* top: 50%; */
     right: 300px;
     vertical-align: middle;
     padding: 30px;
@@ -242,7 +235,7 @@ nav a:hover {
 }
 
 .Activities-Section {
-    height: 50vh;
+    height: 100vh;
     background-color:rgb(106,169,112);
 }
 
@@ -258,40 +251,20 @@ footer {
     height: auto;
     margin: auto; 
     background-color: white; 
-    padding: 30px 20px; 
+    /* padding: 30px 20px;  */
 }
 
-/* .footer-text {
-    color: rgba(206, 131, 104, 0.9);
-    display: flex;  
-    padding: 30px; 
-
-} */
 .footer-text {
     /* display: flex;  */
     color: rgba(206, 131, 104, 0.9);
     list-style-type: none; 
     padding: 30px; 
+    line-height: 30px;
 }
-
-/* .footer-sub {
-    display: flex;
-    list-style-type: none; 
-}
-
-.footer-sub li {
-    color: rgba(206, 131, 104, 0.9);
-    margin: 1em; 
-    padding: 10px; 
-    
-} */
 
 .footer-sub {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center;  */
-    /* align-items: center;  */
     list-style-type: none; 
+    line-height: 5px;
 }
     
 .footer-sub li {
