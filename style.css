@@ -125,8 +125,8 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms; 
 }
 
-
-@media screen and (min-width: 800px) {
+/* mobile view  */
+@media screen and (min-width: 850px) {
     .nav-toggle-label {
         display: none; 
     }
@@ -179,6 +179,35 @@ nav a:hover {
     nav a:hover::before{
         transform: scale(1,1);
     }
+    .footer-text {
+        color: rgba(206, 131, 104, 0.9);
+        display: flex;  
+        padding: 30px; 
+    }
+    .footer-sub {
+        display: flex;
+        list-style-type: none; 
+    }
+    
+    .footer-sub li {
+        color: rgba(206, 131, 104, 0.9);
+        margin: 1em; 
+        padding: 10px; 
+        
+    }
+    /* .footer-sub {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        list-style-type: none; 
+    }
+    
+    .footer-sub li {
+        color: rgba(206, 131, 104, 0.9);
+        margin: 1em; 
+        padding: 10px; 
+    } */
 }
 
 .Landing-text {
@@ -233,4 +262,112 @@ nav a:hover {
     float: right; 
     width: 300;
     color: white; 
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    margin: auto; 
+    background-color: white; 
+    padding: 30px 20px; 
+}
+
+.footer-text {
+    color: rgba(206, 131, 104, 0.9);
+    display: flex;  
+    padding: 30px; 
+}
+
+/* .footer-sub {
+    display: flex;
+    list-style-type: none; 
+}
+
+.footer-sub li {
+    color: rgba(206, 131, 104, 0.9);
+    margin: 1em; 
+    padding: 10px; 
+    
+} */
+
+.footer-sub {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center;  */
+    /* align-items: center;  */
+    list-style-type: none; 
+}
+    
+.footer-sub li {
+    color: rgba(206, 131, 104, 0.9);
+    margin: 0.0001em; 
+    padding: 20px;
+}
+
+.About-Us {
+    list-style-type: none; 
+    font-size: 12px;
+    
+}
+
+#About-Us-Line {
+    font-size: 15px;
+    text-transform: uppercase; 
+    font-weight: 900;
+
+}
+
+#Career-Center-Line {
+    font-size: 15px;
+    text-transform: uppercase; 
+    font-weight: 900;
+}
+
+#Quick-Links-Line {
+    font-size: 15px;
+    text-transform: uppercase; 
+    font-weight: 900;
+}
+
+#Online-Community-Line{
+    font-size: 15px;
+    text-transform: uppercase; 
+    font-weight: 900;
+}
+
+.Career-Center {
+    list-style-type: none; 
+    font-size: 12px;
+}
+
+.Quick-Links {
+    list-style-type: none; 
+    font-size: 12px;
+}
+
+.Online-Community {
+    list-style-type: none; 
+    font-size: 12px;
+}
+
+.Web {
+    margin-left: 10em; 
+
+}
+.Private {
+    margin-left: 10em; 
+}
+
+.Terms {
+    margin-left: 10em; 
+}
+
+.Contact {
+    margin-left: 10em; 
+}
+.Partners  {
+    margin-left: 10em; 
+}
+Map {
+    margin-left: 10em; 
 }
