@@ -1,8 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
 html, body {
     margin: 0;
     padding: 0;
     font-family: Raleway, sans-serif
 }
+
 :root {
     --background: rgba(206, 131, 104, 0.9);
 }
@@ -205,6 +209,12 @@ nav a:hover {
 .cool-button-unclicked:hover {
     opacity: 0.1; 
     transition: 200ms ease-in;
+}
+.cool-button-unclicked::before {
+
+}
+
+.cool-button-unclicked::after{
 
 }
 
@@ -214,7 +224,7 @@ nav a:hover {
     padding-top: 0px;
 }
 .Clothing-text {
-    padding: 30px;
+    padding: 100px;
     float: right; 
     width: 300;
     color: white;
@@ -229,7 +239,7 @@ nav a:hover {
     text-align: left;
     right: 300px;
     vertical-align: middle;
-    padding: 30px;
+    padding: 100px;
     width: 300; 
     color: white; 
 }
@@ -240,7 +250,7 @@ nav a:hover {
 }
 
 .Activities-text {
-    padding: 30px;
+    padding: 100px;
     float: right; 
     width: 300;
     color: white; 
