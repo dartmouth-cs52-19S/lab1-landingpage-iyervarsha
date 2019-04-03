@@ -27,7 +27,6 @@ html, body {
     background-size: cover;
 }
 
-
 /* Navigations Styles */ 
 
 header {
@@ -179,34 +178,24 @@ nav a:hover {
     nav a:hover::before{
         transform: scale(1,1);
     }
-    .footer-text {
-        color: rgba(206, 131, 104, 0.9);
-        display: flex;  
-        padding: 30px; 
-    }
+  
     .footer-sub {
         display: flex;
         list-style-type: none; 
     }
-    
-    .footer-sub li {
+    .footer-text {
+        display: flex; 
         color: rgba(206, 131, 104, 0.9);
+        list-style-type: none; 
+        padding: 30px; 
+    }
+    
+    /* .footer-sub li {
+        color: rgba(206, 131, 104, 0.9);
+        color: black; 
         margin: 1em; 
         padding: 10px; 
         
-    }
-    /* .footer-sub {
-        display: flex;
-        flex-direction: column;
-        justify-content: center; 
-        align-items: center; 
-        list-style-type: none; 
-    }
-    
-    .footer-sub li {
-        color: rgba(206, 131, 104, 0.9);
-        margin: 1em; 
-        padding: 10px; 
     } */
 }
 
@@ -272,9 +261,16 @@ footer {
     padding: 30px 20px; 
 }
 
-.footer-text {
+/* .footer-text {
     color: rgba(206, 131, 104, 0.9);
     display: flex;  
+    padding: 30px; 
+
+} */
+.footer-text {
+    /* display: flex;  */
+    color: rgba(206, 131, 104, 0.9);
+    list-style-type: none; 
     padding: 30px; 
 }
 
