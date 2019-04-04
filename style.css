@@ -22,7 +22,7 @@ html, body {
 
 .Landing-Page {
     height: 100vh;
-    background-image: url(images/IMG_9674.png);
+    background-image: url(images/IPad_View.png);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -235,7 +235,6 @@ footer {
     height: auto;
     margin: auto; 
     background-color: white; 
-    /* padding: 30px 20px;  */
 }
 
 .footer-text {
@@ -388,7 +387,14 @@ Map {
 }
 
 /* desktop view  */
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 834px) {
+
+    .Landing-Page {
+        height: 100vh;
+        background-image: url(images/IMG_9674.png);
+        background-attachment: fixed;
+        background-size: cover;
+    }
 
     .nav-toggle-label {
         display: none; 
@@ -569,10 +575,82 @@ Map {
     
 }
 
-/*mobile view 320 pixels and less*/ 
-@media only screen and (max-width: 320px) {
-    #gucci {
-        font-size: 20px; 
+/*mobile view 400 pixels and less*/ 
+@media only screen and (max-width: 400px) {
+    .Landing-Page {
+        background-image: url(images/Mobile_View.png);
     }
 
+    #title {
+        padding: 0px 20px 20px 20px;
+    }
+
+    #go {
+        padding: 0px 20px;
+    }
+    #gucci {
+        font-size: 20px; 
+        padding: 0px 20px; 
+        text-align: center; 
+    }
+    #poncho{
+        font-size: 15px;
+        padding: 0px 20px; 
+        text-align: center; 
+
+    }
+
+    #cherish {
+        font-size: 20px; 
+        padding: 10px; 
+        text-align: center; 
+    }
+
+    #kesha {
+        font-size: 15px;
+        padding: 10px; 
+        text-align: center; 
+    }
+
+    #frat {
+        font-size: 20px; 
+        padding: 0px 20px; 
+        text-align: center; 
+    }
+
+    #photo {
+        font-size: 15px;
+        padding: 0px 20px; 
+        text-align: center; 
+    }
+
+}
+
+/*mobile view 480 pixels and less*/ 
+@media only screen and (max-height: 480px) {
+    #title {
+        vertical-align: middle;
+    }
+
+    #go {
+        padding: 0px 20px;
+        vertical-align: middle;
+    }
+
+    #note {
+        padding: 0px 20px;
+        vertical-align: middle;
+    }
+
+    .cool-button-unclicked {
+        /* flex: 1;
+        justify-content: flex-start;  */
+        /* padding: 50px;  */
+    }
+
+    .cool-button-hover {
+        flex: 1;
+        justify-content: flex-start; 
+
+    } 
 }
