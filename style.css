@@ -87,8 +87,8 @@ nav {
     background: var(--background);
     width: 100%;
     transform: scale(1, 0);
-    transform-origin: top;
-    transition: transform 0ms ease-in-out;
+    transform-origin: top; 
+    transition: transform  250ms ease-in-out;
 }
 
 nav ul {
@@ -108,7 +108,7 @@ nav a {
     font-size: 20px; 
     text-transform: uppercase; 
     opacity: 0;
-    transition: opacity 150ms ease-in-out;
+    transition: opacity 250ms ease-in-out;
 } 
 
 nav a:hover {
@@ -117,6 +117,7 @@ nav a:hover {
 
 /* Using Checkbox to create hamburger menu */
 .nav-toggle:checked ~ nav { 
+    display: block;  
     transform: scale(1,1);
     
 }
@@ -442,7 +443,7 @@ Map {
         right: 0;
         transform: scale(0, 1);
         transform-origin: left;
-        transition: transform ease-in-out 200ms;
+        transition: transform ease-in-out 250ms;
     }
 
     nav a:hover::before{
