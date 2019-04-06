@@ -162,9 +162,9 @@ nav a:hover {
     top: 40%;
 }
 .Clothing-text {
-    flex: 1; 
+    flex: 0.5; 
     align-items: center; 
-    padding-top: 50px; 
+    padding-top: 20px; 
     justify-content: center;
     width: 100%;  
     float: right; 
@@ -173,9 +173,9 @@ nav a:hover {
 
 
 .Songs-text {
-    flex: 1; 
+    flex: 0.5; 
     align-items: center; 
-    padding-top: 50px; 
+    padding-top: 20px; 
     justify-content: center;
     width: 100%;  
     float: right; 
@@ -184,9 +184,9 @@ nav a:hover {
 
 
 .Activities-text {
-    flex: 1; 
+    flex: 0.5; 
     align-items: center; 
-    padding-top: 50px; 
+    padding-top: 20px; 
     justify-content: center;
     width: 100%;  
     float: right; 
@@ -356,7 +356,7 @@ Map {
 
 .images-songs{
     display: flex;
-    flex: 2; 
+    flex: 1; 
     justify-content: center;
     position: relative;
     width: 100%; 
@@ -364,7 +364,7 @@ Map {
 
 .images-activities {
     display: flex;
-    flex: 2; 
+    flex: 1; 
     justify-content: center;
     position: relative;
     width: 100%; 
@@ -372,7 +372,7 @@ Map {
 
 .images-clothing {
     display: flex;
-    flex: 2; 
+    flex: 1; 
     justify-content: center;
     position: relative;
     width: 100%; 
@@ -428,8 +428,8 @@ Map {
 }
 
 .social {
-    width: 45;
-    height: 43; 
+    width: 35;
+    height: 32; 
     padding: 10; 
 }
 
@@ -528,18 +528,21 @@ Map {
 
     .images-activities {
         display: flex; 
+
         padding: 0px; 
         margin: 0px; 
     }
     
     .images-clothing {
         display: flex; 
+  
         padding: 0px; 
         margin: 0px; 
     }
 
     .images-songs {
         display: flex; 
+  
         padding: 0px; 
         margin: 0px; 
     }
@@ -639,13 +642,10 @@ Map {
         justify-content: center;
         font-size: 30px; 
     }
-    /* #poncho {
-        padding-right: 20px;
-    } */
     
 }
 
-/*mobile view 400 pixels and less*/ 
+mobile view 400 pixels and less 
 @media only screen and (max-width: 400px) {
     .Landing-Page {
         background-image: url(images/Mobile_View.png);
@@ -701,7 +701,7 @@ Map {
 
 }
 
-/*mobile view 480 pixels and less*/ 
+/*mobile view*/ 
 @media only screen and (max-height: 480px) {
 
     #Landing-text {
@@ -730,19 +730,27 @@ Map {
     }
 
     .cool-button-unclicked{
-        /* display: flex;  */
+
         position: absolute;
-        /* top: 83%; */
-        /* bottom: 10px;  */
-        /* top: -2px;  */
+    
         opacity: 100%; 
     }
     .cool-button-unclicked:hover {
-        /* display: flex;  */
+
 
         position: absolute; 
         opacity: 0.1; 
         transition: 200ms ease-in;
+    }
+
+    .images-activities{
+        flex: 1;
+    }
+    .images-clothing{
+        flex: 1;
+    }
+    .images-songs{
+        flex: 1;
     }
 
 }
