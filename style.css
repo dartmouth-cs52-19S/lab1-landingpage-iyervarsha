@@ -134,32 +134,32 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms; 
 }
 
-
-/* .Landing-text img{
-    top: 30%;
-} */
 .Landing-text h1 {
     font-size: 50px;
     font-weight: 900;
 }
-/* .cool-button-unclicked{
+
+/* .cool-button-container {
+    top: 83%; 
+} */
+.cool-button-unclicked{
 
     position: absolute;
     opacity: 100%; 
-
 }
+
 .cool-button-unclicked:hover {
 
     opacity: 0.1; 
     transition: 200ms ease-in;
-} */
+}
 .Landing-text {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
     text-align:  center;
     position: relative;
-    top: 50%;
+    top: 40%;
 }
 .Clothing-text {
     flex: 1; 
@@ -657,8 +657,7 @@ Map {
 @media only screen and (max-height: 480px) {
 
     #Landing-text {
-    
-       padding-bottom: 10px; 
+       padding-bottom: 0px; 
     }
 
     #title {
@@ -676,7 +675,7 @@ Map {
     }
 
     #cool-button-container {
-        position: relative;
+        position: absolute;
         top: -25px;
         left: 0;
         
@@ -685,7 +684,7 @@ Map {
     .cool-button-unclicked{
         /* display: flex;  */
         position: absolute;
-        top: 10px;
+        /* top: 83%; */
         /* bottom: 10px;  */
         /* top: -2px;  */
         opacity: 100%; 
