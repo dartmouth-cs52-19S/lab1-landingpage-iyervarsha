@@ -399,6 +399,32 @@ Map {
     background-color: rgb(37,79,41);
 }
 
+.social-media ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none; 
+    padding: 10; 
+}
+
+.social {
+    width: 45;
+    height: 43; 
+    padding: 10; 
+}
+
+#search-div {
+    display: flex; 
+    height: 100%; 
+    
+}
+#search {
+    padding: 5; 
+    background-color: white; 
+    border: 1px solid black;
+    justify-content: center; 
+     
+}
+
 /* desktop view at least 834px wide*/ 
 @media screen and (min-width: 834px) {
 
