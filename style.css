@@ -193,52 +193,69 @@ nav a:hover {
     color: white; 
 }
 
-.activity{
+.activity {
+    padding-right: 20; 
     display: flex;
     justify-content: center;
 }
 
-.cloth{
+.cloth {
+    padding-right: 20; 
     display: flex;
     justify-content: center;
 }
 
-.song{
+.song {
+    padding-right: 20; 
     display: flex;
     justify-content: center;
 }
 
 #gucci {
+    padding: 0 20; 
+    text-align: center; 
     font-size: 30px;
 }
 
 #poncho {
     font-size: 20px; 
+    padding: 0 20; 
+    text-align: center; 
     text-transform: uppercase;
 }
 
 #cherish {
+    padding: 0 20; 
+    text-align: center; 
     font-size: 30px;
 }
 
 #kesha {
+    padding: 0 20; 
+    text-align: center; 
     font-size: 20px; 
     text-transform: uppercase;
 }
 
 #SONGS {
     font-size: 40px; 
+    justify-content: center; 
 }
 
 #ACTIVITIES {
     font-size: 40px; 
+    justify-content: center; 
 }
 
 #frat {
+    padding: 0 20; 
+    text-align: center; 
     font-size: 30px; 
 }
 
 #photo {
+    padding: 0 20; 
+    text-align: center; 
     font-size: 20px; 
     text-transform: uppercase; 
 }
@@ -569,6 +586,7 @@ Map {
     #CLOTHING {
         font-size: 40px; 
         font-weight: 900;  
+        justify-content: center; 
     }
   
     .Songs-text {
@@ -606,19 +624,19 @@ Map {
     }
     .activity{
         display: flex;
-        justify-content: left;
+        justify-content: center;
         font-size: 30px; 
     }
 
     .cloth {
         display: flex;
-        justify-content: left;
+        justify-content: center;
         font-size: 30px; 
     }
 
     .song{
         display: flex;
-        justify-content: left;
+        justify-content: center;
         font-size: 30px; 
     }
     /* #poncho {
@@ -671,13 +689,13 @@ Map {
 
     #frat {
         font-size: 20px; 
-        padding: 0px 20px; 
+        padding: 10px; 
         text-align: center; 
     }
 
     #photo {
         font-size: 15px;
-        padding: 0px 20px; 
+        padding: 10px; 
         text-align: center; 
     }
 
