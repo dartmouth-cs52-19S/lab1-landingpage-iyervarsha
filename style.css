@@ -1,3 +1,4 @@
+/* between 834px and 400px wide*/ 
 html{
     scroll-behavior: smooth;
 }
@@ -20,6 +21,12 @@ html, body {
     box-sizing: border-box;
 }
 
+#search {
+    margin-left: 15px; 
+    margin-bottom: 15px;  
+    
+
+}
 .Landing-Page {
     height: 100vh;
     background-image: url(images/IPad_View.png);
@@ -128,19 +135,24 @@ nav a:hover {
 }
 
 
-
+/* .Landing-text img{
+    top: 30%;
+} */
 .Landing-text h1 {
     font-size: 50px;
     font-weight: 900;
 }
-.cool-button-unclicked{
+/* .cool-button-unclicked{
+
     position: absolute;
     opacity: 100%; 
+
 }
 .cool-button-unclicked:hover {
+
     opacity: 0.1; 
     transition: 200ms ease-in;
-}
+} */
 .Landing-text {
     margin: 0;
     padding: 0;
@@ -387,7 +399,7 @@ Map {
     background-color: rgb(37,79,41);
 }
 
-/* desktop view  */
+/* desktop view at least 834px wide*/ 
 @media screen and (min-width: 834px) {
 
     .Landing-Page {
@@ -395,6 +407,12 @@ Map {
         background-image: url(images/IMG_9674.png);
         background-attachment: fixed;
         background-size: cover;
+    }
+
+    #search {
+        display: flex; 
+        position: relative; 
+        left: 10%; 
     }
 
     .nav-toggle-label {
@@ -411,7 +429,7 @@ Map {
 
     nav {
         all: unset;
-        grid-column: 3 / 4;
+        grid-column: 2 / 3;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -573,6 +591,9 @@ Map {
         justify-content: left;
         font-size: 30px; 
     }
+    /* #poncho {
+        padding-right: 20px;
+    } */
     
 }
 
@@ -580,6 +601,11 @@ Map {
 @media only screen and (max-width: 400px) {
     .Landing-Page {
         background-image: url(images/Mobile_View.png);
+    }
+
+    #search {
+        margin-left: 15px; 
+        margin-bottom: 10px;  
     }
 
     #title {
@@ -629,6 +655,12 @@ Map {
 
 /*mobile view 480 pixels and less*/ 
 @media only screen and (max-height: 480px) {
+
+    #Landing-text {
+    
+       padding-bottom: 10px; 
+    }
+
     #title {
         vertical-align: middle;
     }
@@ -643,15 +675,27 @@ Map {
         vertical-align: middle;
     }
 
-    .cool-button-unclicked {
-        /* flex: 1;
-        justify-content: flex-start;  */
-        /* padding: 50px;  */
+    #cool-button-container {
+        position: relative;
+        top: -25px;
+        left: 0;
+        
     }
 
-    .cool-button-hover {
-        flex: 1;
-        justify-content: flex-start; 
+    .cool-button-unclicked{
+        /* display: flex;  */
+        position: absolute;
+        top: 10px;
+        /* bottom: 10px;  */
+        /* top: -2px;  */
+        opacity: 100%; 
+    }
+    .cool-button-unclicked:hover {
+        /* display: flex;  */
 
-    } 
+        position: absolute; 
+        opacity: 0.1; 
+        transition: 200ms ease-in;
+    }
+
 }
