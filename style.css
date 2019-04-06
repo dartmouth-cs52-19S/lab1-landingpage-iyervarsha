@@ -398,12 +398,16 @@ Map {
     width: 100%; 
     background-color: rgb(37,79,41);
 }
-
+.social-media {
+    background-color:rgb(219, 234, 208); 
+}
 .social-media ul {
     display: flex;
     justify-content: flex-start;
     list-style: none; 
-    padding: 10; 
+    padding: 0;
+    margin: 0; 
+
 }
 
 .social {
@@ -415,11 +419,13 @@ Map {
 #search-div {
     display: flex; 
     height: 100%; 
+    padding: 5;
     
 }
 #search {
-    padding: 5; 
-    background-color: white; 
+    margin-right: 0; 
+    margin-top: 20; 
+    background-color: rgb(219, 234, 208); 
     border: 1px solid black;
     justify-content: center; 
      
