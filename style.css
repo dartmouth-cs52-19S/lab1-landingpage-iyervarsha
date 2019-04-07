@@ -165,7 +165,7 @@ nav a:hover {
     padding-top: 20px; 
     justify-content: center;
     width: 100%;  
-    float: right; 
+    
     color: white; 
 }
 
@@ -176,7 +176,7 @@ nav a:hover {
     padding-top: 20px; 
     justify-content: center;
     width: 100%;  
-    float: right; 
+    
     color: white; 
 }
 
@@ -187,7 +187,7 @@ nav a:hover {
     padding-top: 20px; 
     justify-content: center;
     width: 100%;  
-    float: right; 
+    
     color: white; 
 }
 
@@ -567,7 +567,7 @@ Map {
     .Activities-text{
         align-items: center; 
         padding-top: 130px; 
-        float: right; 
+       
         color: white; 
         height: 100%; 
         justify-content: center;
@@ -577,7 +577,7 @@ Map {
     .Clothing-text {
         align-items: center; 
         padding-top: 130px; 
-        float: right; 
+        
         color: white; 
         height: 100%; 
         justify-content: center;
@@ -592,7 +592,7 @@ Map {
     .Songs-text {
         align-items: center; 
         padding-top: 130px; 
-        float: right; 
+        
         color: white; 
         height: 100%; 
         justify-content: center; 
