@@ -27,6 +27,8 @@ slightly differently where I would have a parent container and various child div
 on the parent and "scroll-snap-points-y" on the children divs. 
 
 ### Layout Stage
+<img width="494" alt="Screen Shot 2019-04-06 at 10 47 56 PM" src="https://user-images.githubusercontent.com/33734566/55677885-394eb200-58be-11e9-9817-4f72da28e30c.png">
+
 ### Special Parts 
 
 I added some fancier CSS transitions using the hover states on the call to action button and the navigation bar. 
