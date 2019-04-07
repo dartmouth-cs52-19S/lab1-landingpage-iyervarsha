@@ -40,12 +40,11 @@ I added some fancier CSS transitions using the hover states on the call to actio
 <img width="180" alt="Screen Shot 2019-04-06 at 10 42 27 PM" src="https://user-images.githubusercontent.com/33734566/55677905-ca258d80-58be-11e9-817a-f53c562ee59c.png">
 
 #### Navigation Bar
-<img width="405" alt="Screen Shot 2019-04-06 at 10 42 47 PM" src="https://user-images.githubusercontent.com/33734566/55677910-dc073080-58be-11e9-925c-cc3474498105.png">
 
 <img width="961" alt="Screen Shot 2019-04-06 at 10 42 15 PM" src="https://user-images.githubusercontent.com/33734566/55677918-e3c6d500-58be-11e9-8853-326dd8dd7e80.png">
 
 #### Hamburger Menu/ CSS Checkbox
-
+<img width="405" alt="Screen Shot 2019-04-06 at 10 42 47 PM" src="https://user-images.githubusercontent.com/33734566/55677910-dc073080-58be-11e9-925c-cc3474498105.png">
 
 ### URL to Original Landing Page I was Mimicking
 
