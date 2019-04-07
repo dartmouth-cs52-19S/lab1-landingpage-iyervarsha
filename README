@@ -28,6 +28,11 @@ on the parent and "scroll-snap-points-y" on the children divs.
 
 ### Layout Stage
 ### Special Parts 
+
+I added some fancier CSS transitions using the hover states on the call to action button and the navigation bar. 
+I used the CSS Checkbox Hack.
+I linked the headers to different parts of the page. 
+
 ### URL to Original Landing Page I was Mimicking
 
 I took aspects from various landing pages. I confirmed with Tim that this was okay. 
