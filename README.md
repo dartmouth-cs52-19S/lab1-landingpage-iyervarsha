@@ -29,11 +29,23 @@ on the parent and "scroll-snap-points-y" on the children divs.
 ### Layout Stage
 <img width="494" alt="Screen Shot 2019-04-06 at 10 47 56 PM" src="https://user-images.githubusercontent.com/33734566/55677885-394eb200-58be-11e9-9817-4f72da28e30c.png">
 
-### Special Parts 
+<img width="361" alt="Screen Shot 2019-04-06 at 10 48 07 PM" src="https://user-images.githubusercontent.com/33734566/55677899-a82c0b00-58be-11e9-9b71-669b2a7b74df.png">
 
-I added some fancier CSS transitions using the hover states on the call to action button and the navigation bar. 
-I used the CSS Checkbox Hack.
-I linked the headers to different parts of the page. 
+### Special Parts 
+I added some fancier CSS transitions using the hover states on the call to action button and the navigation bar. I used the CSS Checkbox Hack. I linked the headers to different parts of the page. 
+
+#### Call to Action Button
+<img width="187" alt="Screen Shot 2019-04-06 at 10 42 23 PM" src="https://user-images.githubusercontent.com/33734566/55677903-c6920680-58be-11e9-82de-151bf984f2c1.png">
+
+<img width="180" alt="Screen Shot 2019-04-06 at 10 42 27 PM" src="https://user-images.githubusercontent.com/33734566/55677905-ca258d80-58be-11e9-817a-f53c562ee59c.png">
+
+#### Navigation Bar
+<img width="405" alt="Screen Shot 2019-04-06 at 10 42 47 PM" src="https://user-images.githubusercontent.com/33734566/55677910-dc073080-58be-11e9-925c-cc3474498105.png">
+
+<img width="961" alt="Screen Shot 2019-04-06 at 10 42 15 PM" src="https://user-images.githubusercontent.com/33734566/55677918-e3c6d500-58be-11e9-8853-326dd8dd7e80.png">
+
+#### Hamburger Menu/ CSS Checkbox
+
 
 ### URL to Original Landing Page I was Mimicking
 
